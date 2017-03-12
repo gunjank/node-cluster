@@ -14,8 +14,8 @@ $ npm install
   - graceful shutdown support
   - workers commit suicide when master dies 
   - spawns one worker per cpu (by default)
-  - supports node 0.2.x
-  - supports node 0.4.x
+  - supports node 4.0.x
+  - supports node 6.0.x
   - supports TCP servers
 
 ## Example
@@ -59,7 +59,7 @@ if (cluster.isMaster) {
 ```
 ## Running Node.js will now share port 8000 between the workers:
 ```
- npm start 
+npm start 
 Master 3596 is running
 Worker 4324 started
 Worker 4520 started
