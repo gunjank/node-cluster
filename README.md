@@ -12,7 +12,7 @@ $ npm install
   - zero-downtime restart
   - hard shutdown support
   - graceful shutdown support
-  - workers commit suicide when master dies 
+  - workers closed automatically when master dies 
   - spawns one worker per cpu (by default)
   - supports node 4.0.x
   - supports node 6.0.x
